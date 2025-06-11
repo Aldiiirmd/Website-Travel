@@ -1,0 +1,127 @@
+<html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Aldi - Agen Perjalanan Wisata</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Travel Aldi</h1>
+      <nav class="space-x-4">
+        <a href="#layanan" class="hover:underline">Layanan</a>
+        <a href="#paket" class="hover:underline">Paket</a>
+        <a href="#testimoni" class="hover:underline">Testimoni</a>
+        <a href="#kontak" class="hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-96 text-white flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?travel');">
+    <div class="text-center bg-black bg-opacity-50 p-6 rounded">
+      <h2 class="text-4xl font-bold mb-2">Jelajahi Dunia Bersama Travel Aldi</h2>
+      <p class="text-lg">Paket wisata terbaik, layanan terbaik, harga bersahabat</p>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-12 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-8">Layanan Kami</h3>
+      <div class="grid md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 bg-white rounded shadow">
+          <h4 class="font-semibold mb-2">Antar-Jemput Bandara</h4>
+          <p>Kemudahan transportasi dari dan ke bandara.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <h4 class="font-semibold mb-2">Paket Tour Domestik</h4>
+          <p>Wisata keliling Indonesia dengan itinerary menarik.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <h4 class="font-semibold mb-2">Paket Tour Internasional</h4>
+          <p>Liburan ke luar negeri dengan layanan profesional.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <h4 class="font-semibold mb-2">Pemesanan Hotel</h4>
+          <p>Booking hotel terpercaya dengan harga terjangkau.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paket Wisata -->
+  <section id="paket" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-8">Paket Wisata Populer</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/600x400/?bali" alt="Bali" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Bali 3 Hari 2 Malam</h4>
+            <p class="text-sm text-gray-600">Mulai Rp 2.500.000/pax</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/600x400/?singapore" alt="Singapore" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Singapore City Tour</h4>
+            <p class="text-sm text-gray-600">Mulai Rp 4.000.000/pax</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/600x400/?yogyakarta" alt="Yogyakarta" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Yogyakarta Heritage</h4>
+            <p class="text-sm text-gray-600">Mulai Rp 1.800.000/pax</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimoni" class="py-12 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-8">Apa Kata Pelanggan</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded shadow">
+          <p>“Pelayanan sangat ramah dan profesional. Liburan jadi lebih menyenangkan!”</p>
+          <p class="mt-2 font-semibold">- Sinta, Jakarta</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <p>“Paket tournya lengkap dan sesuai budget. Sangat direkomendasikan.”</p>
+          <p class="mt-2 font-semibold">- Budi, Surabaya</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <p>“Sopir dan guide-nya sangat membantu, hotel dan makanannya juga oke.”</p>
+          <p class="mt-2 font-semibold">- Rina, Bandung</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-12">
+    <div class="max-w-3xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-6">Hubungi Kami</h3>
+      <form class="space-y-4 bg-white p-6 rounded shadow">
+        <input type="text" placeholder="Nama" class="w-full p-2 border rounded"/>
+        <input type="email" placeholder="Email" class="w-full p-2 border rounded"/>
+        <textarea placeholder="Pesan Anda" class="w-full p-2 border rounded" rows="4"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4">
+    <p>&copy; 2025 Travel Aldi. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>
